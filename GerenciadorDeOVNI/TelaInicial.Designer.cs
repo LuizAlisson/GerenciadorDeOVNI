@@ -78,9 +78,9 @@
             this.lblOrigem.AutoSize = true;
             this.lblOrigem.Location = new System.Drawing.Point(137, 122);
             this.lblOrigem.Name = "lblOrigem";
-            this.lblOrigem.Size = new System.Drawing.Size(116, 13);
+            this.lblOrigem.Size = new System.Drawing.Size(97, 13);
             this.lblOrigem.TabIndex = 5;
-            this.lblOrigem.Text = "Máximo de Tripulantes:";
+            this.lblOrigem.Text = "Planeta de Origem:";
             // 
             // cmbOrigem
             // 

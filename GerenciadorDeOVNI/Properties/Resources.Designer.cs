@@ -73,6 +73,16 @@ namespace GerenciadorDeOVNI.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap terrinha {
+            get {
+                object obj = ResourceManager.GetObject("terrinha", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ufo__2_ {
             get {
                 object obj = ResourceManager.GetObject("ufo (2)", resourceCulture);
