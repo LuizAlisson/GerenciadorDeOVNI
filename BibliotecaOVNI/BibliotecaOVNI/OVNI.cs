@@ -41,7 +41,7 @@ namespace BibliotecaOVNI
         public int QtdAbduzidos { get { return _qtdAbduzidos;} }
         public int QtdTripulantes { get { return _qtdTripulantes;} }
 
-        
+        public string PlanetaAtual { get  { return _planetaAtual; } }
 
         public OVNI(int maxTripulantes, int maxAbduzidos, string planetaOrigem) 
         {

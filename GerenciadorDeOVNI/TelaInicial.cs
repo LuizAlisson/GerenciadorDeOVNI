@@ -45,8 +45,21 @@ namespace GerenciadorDeOVNI
                 int maxAbduzidos = int.Parse(txbAbduzidos.Text);
                 string planetaOrigem = cmbOrigem.Text;
 
-                //Instamciar o OVNI:
+                //Instanciar o OVNI:
                 BibliotecaOVNI.OVNI ovni = new BibliotecaOVNI.OVNI(maxTripulantes, maxAbduzidos, planetaOrigem);
+                
+                //Instanciar a janela "gerenciador" para comseguir chama-la:
+                Gerenciador gerenciador = new Gerenciador(ovni);
+
+                //Esconder a janela atual;
+                Hide();
+
+                //abrir a janela do gerenciador:
+                gerenciador.ShowDialog();
+
+                //Mostrar novamente a janela atual após a amterior fechar;
+                Show();
+
             }
 
         }
